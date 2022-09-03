@@ -52,3 +52,19 @@ with Diagram("Message Collecting", show=False):
 ```
 
 ![diagram](message-collecting.png)
+
+
+```py
+rackdiag {
+  10U;
+  1: UPS [2U];
+  3: DB Server;
+  4: Web Server;
+  5: Web Server;
+  6: Web Server;
+  7: Load Balancer;
+  8: L3 Switch;
+}
+```
+
+![Diagram](https://kroki.io/rackdiag/svg/eNorSkzOTslMTFeo5lJQMDQItQZRVgqhAcEK0UahsSCusZWCi5NCcGpRWWoRiG9ipRCemoQkYIouYIYuYG6l4JOfmKLglJiTmJcMEbMAihkrBJdnliRnWHPVAgDeeyV7)
