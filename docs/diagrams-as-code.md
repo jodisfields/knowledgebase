@@ -1,7 +1,9 @@
-from urllib.request import urlretrieve
+# Diagrams as Code
 
+```py
 from diagrams import Cluster, Diagram
 from diagrams.custom import Custom
+from urllib.request import urlretrieve
 
 with Diagram("Import logo CertManager", show=False):
 
@@ -10,3 +12,6 @@ with Diagram("Import logo CertManager", show=False):
         certmanager_icon = "logo.png"
         urlretrieve(certmanager_url, certmanager_icon)
         certmanager = Custom("Cert Manager", certmanager_icon)
+```
+
+![diagram](logo.png)

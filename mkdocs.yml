@@ -2,7 +2,7 @@
 site_name: JFields Knowledge Base
 site_author: Jodis Fields
 site_description: JFields Knowledge Base
-repo_name: JFields Knowledge Base
+repo_name: jodisfields/knowledgebase
 repo_url: https://github.com/jodisfields/knowledgebase
 # theme configuration
 theme:
